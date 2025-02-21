@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Fluxo de Caixa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #0b046f;
+            padding: 20px;
+            border-radius: 5px;
+            color: white;
+            width: 300px;
+            margin: 100px auto;
+        }
+        input[type="text"], input[type="number"], select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin: 10px 0; /* Adicionado para criar espaço entre os botões */
+        }
+        button:hover {
+            background-color: #004494;
+        }
+        .item-list {
+            margin-top: 20px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .item-list li {
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .total {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .positivo {
+            color: rgba(181, 255, 173, 0.529);
+        }
+        .negativo {
+            color: rgba(242, 163, 163, 0.708);
+        }
+        .botoes-entrada-saida {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0; /* Distância adicional entre os botões e o botão de adicionar */
+        }
+        .botoes-entrada-saida button {
+            flex: 1; /* Faz os botões ocuparem o mesmo espaço */
+            margin-right: 5px; /* Espaço entre os botões */
+            border-radius: 5px; /* Bordas arredondadas */
+        }
+        .botoes-entrada-saida button:last-child {
+            margin-right: 0; /* Remove margem do último botão */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Controle de Fluxo de Caixa</h2>
+        <input type="text" id="descricao" placeholder="Descrição">
+        <input type="number" id="valor" placeholder="Valor (R$)">
+        
+        <div class="botoes-entrada-saida">
+            <button onclick="setTipo('entrada')">Entrada</button>
+            <button onclick="setTipo('saida')">Saída</button>
+        </div>
+        
+        <button onclick="adicionarItem()">Adicionar</button>
+
+        <ul class="item-list" id="listaItens"></ul>
+        <div class="total" id="total">Total: R$ 0,00</div>
+    </div>
+    <script>
+        let saldoTotal = 0;
+        let tipoAtual = 'entrada'; // Define o tipo padrão como entrada
+
+        function setTipo(tipo) {
+            tipoAtual = tipo; // Atualiza o tipo atual
+            document.getElementById('descricao').focus(); // Foca no campo de descrição
+        }
+
+        function atualizarTotal() {
+            document.getElementById('total').textContent = `Total: R$ ${saldoTotal.toFixed(2)}`;
+        }
+
+        function adicionarItem() {
+            const descricao = document.getElementById('descricao').value;
+            const valor = parseFloat(document.getElementById('valor').value);
+
+            if (descricao && !isNaN(valor)) {
+                const lista = document.getElementById('listaItens');
+                const item = document.createElement('li');
+                
+                if (tipoAtual === 'entrada') {
+                    saldoTotal += valor;
+                    item.textContent = `Entrada - ${descricao}: R$ ${valor.toFixed(2)}`;
+                    item.classList.add('positivo');
+                } else {
+                    saldoTotal -= valor;
+                    item.textContent = `Saída - ${descricao}: R$ ${valor.toFixed(2)}`;
+                    item.classList.add('negativo');
+                }
+
+                lista.appendChild(item);
+                document.getElementById('descricao').value = '';
+                document.getElementById('valor').value = '';
+                atualizarTotal();
+            } else {
+                alert('Por favor, preencha todos os campos corretamente.');
+            }
+        }
+    </script>
+</body>
+</html>
