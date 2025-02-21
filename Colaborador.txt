@@ -1,0 +1,313 @@
+    <Colaborador>
+        <ID>27</ID>
+        <Nome>Mariana Souza Lima</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>10/07/1990</DataNascimento>
+        <DataAdmissao>05/01/2020</DataAdmissao>
+        <DataDesligamento>15/02/2021</DataDesligamento>
+        <TipoDesligamento>Demissão Voluntária</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Coordenadora de Projetos</Cargo>
+        <Setor>Projetos</Setor>
+        <Salario>9000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>28</ID>
+        <Nome>Roberto Carlos Almeida</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>23/04/1985</DataNascimento>
+        <DataAdmissao>15/02/2019</DataAdmissao>
+        <DataDesligamento>20/03/2020</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Médio</Escolaridade>
+        <Cargo>Assistente de Vendas</Cargo>
+        <Setor>Vendas</Setor>
+        <Salario>4000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>29</ID>
+        <Nome>Fernanda Oliveira Santos</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>15/05/1992</DataNascimento>
+        <DataAdmissao>20/03/2021</DataAdmissao>
+        <DataDesligamento>10/01/2023</DataDesligamento>
+        <TipoDesligamento>Término de Contrato</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Analista de Comunicação</Cargo>
+        <Setor>Comunicação</Setor>
+        <Salario>6000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>30</ID>
+        <Nome>Lucas Martins Silva</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>28/08/1987</DataNascimento>
+        <DataAdmissao>15/09/2020</DataAdmissao>
+        <DataDesligamento>20/11/2021</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Médio</Escolaridade>
+        <Cargo>Assistente de TI</Cargo>
+        <Setor>TI</Setor>
+        <Salario>4500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>31</ID>
+        <Nome>Camila Ferreira Dias</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>12/12/1993</DataNascimento>
+        <DataAdmissao>10/10/2021</DataAdmissao>
+        <DataDesligamento>15/07/2022</DataDesligamento>
+        <TipoDesligamento>Demissão Voluntária</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Gerente de Marketing</Cargo>
+        <Setor>Marketing</Setor>
+        <Salario>8000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>32</ID>
+        <Nome>André Luiz Santos</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>05/11/1986</DataNascimento>
+        <DataAdmissao>15/01/2022</DataAdmissao>
+        <DataDesligamento>20/09/2023</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Coordenador de Vendas</Cargo>
+        <Setor>Vendas</Setor>
+        <Salario>7500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>33</ID>
+        <Nome>Juliana Costa Almeida</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>18/03/1991</DataNascimento>
+        <DataAdmissao>20/04/2020</DataAdmissao>
+        <DataDesligamento>15/06/2021</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Analista Financeiro</Cargo>
+        <Setor>Finanças</Setor>
+        <Salario>7000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>34</ID>
+        <Nome>Felipe Gomes Silva</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>25/01/1988</DataNascimento>
+        <DataAdmissao>15/07/2021</DataAdmissao>
+        <DataDesligamento>10/11/2022</DataDesligamento>
+        <TipoDesligamento>Término de Contrato</TipoDesligamento>
+        <Escolaridade>Médio</Escolaridade>
+        <Cargo>Assistente de Logística</Cargo>
+        <Setor>Logística</Setor>
+        <Salario>3500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>35</ID>
+        <Nome>Roberta Lima Santos</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>30/06/1990</DataNascimento>
+        <DataAdmissao>10/09/2022</DataAdmissao>
+        <DataDesligamento>15/04/2023</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Coordenadora de Projetos</Cargo>
+        <Setor>Projetos</Setor>
+        <Salario>8500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>36</ID>
+        <Nome>Marcos Paulo Ferreira</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>15/08/1985</DataNascimento>
+        <DataAdmissao>20/02/2020</DataAdmissao>
+        <DataDesligamento>10/05/2021</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Médio</Escolaridade>
+        <Cargo>Assistente de Atendimento</Cargo>
+        <Setor>Atendimento</Setor>
+        <Salario>3000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>37</ID>
+        <Nome>Patrícia Oliveira Lima</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>22/11/1992</DataNascimento>
+        <DataAdmissao>15/01/2021</DataAdmissao>
+        <DataDesligamento>20/06/2022</DataDesligamento>
+        <TipoDesligamento>Término de Contrato</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Analista de Recursos Humanos</Cargo>
+        <Setor>Recursos Humanos</Setor>
+        <Salario>6000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>38</ID>
+        <Nome>Thiago Lima Santos</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>09/09/1989</DataNascimento>
+        <DataAdmissao>10/03/2022</DataAdmissao>
+        <DataDesligamento>15/12/2023</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Coordenador de TI</Cargo>
+        <Setor>TI</Setor>
+        <Salario>8000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>39</ID>
+        <Nome>Gustavo Henrique Almeida</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>25/04/1984</DataNascimento>
+        <DataAdmissao>25/09/2021</DataAdmissao>
+        <DataDesligamento>15/10/2022</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Médio</Escolaridade>
+        <Cargo>Assistente de Compras</Cargo>
+        <Setor>Compras</Setor>
+        <Salario>3500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>40</ID>
+        <Nome>Juliana da Silva Ferreira</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>10/02/1993</DataNascimento>
+        <DataAdmissao>15/03/2021</DataAdmissao>
+        <DataDesligamento>10/08/2022</DataDesligamento>
+        <TipoDesligamento>Término de Contrato</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Gerente de Comunicação</Cargo>
+        <Setor>Comunicação</Setor>
+        <Salario>7500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>41</ID>
+        <Nome>Leonardo Augusto Silva</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>18/01/1988</DataNascimento>
+        <DataAdmissao>20/05/2022</DataAdmissao>
+        <DataDesligamento>15/07/2023</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Analista de Vendas</Cargo>
+        <Setor>Vendas</Setor>
+        <Salario>6000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>42</ID>
+        <Nome>Fernanda Cristina Santos</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>30/05/1991</DataNascimento>
+        <DataAdmissao>15/10/2020</DataAdmissao>
+        <DataDesligamento>20/12/2021</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Coordenadora de TI</Cargo>
+        <Setor>TI</Setor>
+        <Salario>7500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>43</ID>
+        <Nome>Marcos Antonio Lima</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>15/04/1987</DataNascimento>
+        <DataAdmissao>20/01/2021</DataAdmissao>
+        <DataDesligamento>10/08/2022</DataDesligamento>
+        <TipoDesligamento>Término de Contrato</TipoDesligamento>
+        <Escolaridade>Médio</Escolaridade>
+        <Cargo>Assistente de Recursos Humanos</Cargo>
+        <Setor>Recursos Humanos</Setor>
+        <Salario>4000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>44</ID>
+        <Nome>Patricia Maria Silva</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>22/06/1992</DataNascimento>
+        <DataAdmissao>10/02/2023</DataAdmissao>
+        <DataDesligamento>15/11/2023</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Gerente de Vendas</Cargo>
+        <Setor>Vendas</Setor>
+        <Salario>9000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>45</ID>
+        <Nome>Thiago da Silva Almeida</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>15/09/1986</DataNascimento>
+        <DataAdmissao>15/01/2022</DataAdmissao>
+        <DataDesligamento>20/05/2022</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Médio</Escolaridade>
+        <Cargo>Assistente de Compras</Cargo>
+        <Setor>Compras</Setor>
+        <Salario>3500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>46</ID>
+        <Nome>Luciana Ferreira Lima</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>12/11/1994</DataNascimento>
+        <DataAdmissao>10/06/2021</DataAdmissao>
+        <DataDesligamento>20/01/2023</DataDesligamento>
+        <TipoDesligamento>Término de Contrato</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Coordenadora de Marketing</Cargo>
+        <Setor>Marketing</Setor>
+        <Salario>8000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>47</ID>
+        <Nome>Roberto Carlos Silva</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>15/03/1985</DataNascimento>
+        <DataAdmissao>25/07/2022</DataAdmissao>
+        <DataDesligamento>15/08/2023</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Médio</Escolaridade>
+        <Cargo>Assistente de Atendimento</Cargo>
+        <Setor>Atendimento</Setor>
+        <Salario>3000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>48</ID>
+        <Nome>Juliana da Silva Costa</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>20/05/1990</DataNascimento>
+        <DataAdmissao>10/02/2022</DataAdmissao>
+        <DataDesligamento>15/12/2023</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Analista de Comunicação</Cargo>
+        <Setor>Comunicação</Setor>
+        <Salario>6000</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>49</ID>
+        <Nome>Gustavo Henrique Almeida</Nome>
+        <Genero>M</Genero>
+        <DataNascimento>10/09/1988</DataNascimento>
+        <DataAdmissao>15/03/2021</DataAdmissao>
+        <DataDesligamento>20/03/2023</DataDesligamento>
+        <TipoDesligamento>Demissão Sem Justa</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Gerente de Projetos</Cargo>
+        <Setor>Projetos</Setor>
+        <Salario>9500</Salario>
+    </Colaborador>
+    <Colaborador>
+        <ID>50</ID>
+        <Nome>Marina da Silva Ferreira</Nome>
+        <Genero>F</Genero>
+        <DataNascimento>30/10/1995</DataNascimento>
+        <DataAdmissao>10/08/2022</DataAdmissao>
+        <DataDesligamento>15/12/2023</DataDesligamento>
+        <TipoDesligamento>Término de Contrato</TipoDesligamento>
+        <Escolaridade>Superior</Escolaridade>
+        <Cargo>Coordenadora de Marketing</Cargo>
+        <Setor>Marketing</Setor>
+        <Salario>8000</Salario>
+    </Colaborador>
+</Colaboradores>
